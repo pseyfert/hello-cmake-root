@@ -1,0 +1,11 @@
+image: rootproject/root-ubuntu16
+
+stages:
+  - run
+
+install:
+  stage: run
+  script:
+    - mkdir build
+    - cmake ..
+    - cmake --build .
