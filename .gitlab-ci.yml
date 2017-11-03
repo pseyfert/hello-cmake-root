@@ -7,5 +7,5 @@ install:
   stage: run
   script:
     - mkdir build
-    - cmake ..
+    - cmake ${CI_PROJECT_DIR}
     - cmake --build .
