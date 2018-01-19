@@ -1,4 +1,4 @@
-#Set CXX flags to compile with c++11 and error warnings quiet
+# some warnings and stuff
 set(CMAKE_CXX_FLAGS "-O3 -fPIC -Wall -Wextra -m64")
 
 set(CMAKE_CXX_STANDARD 98)
