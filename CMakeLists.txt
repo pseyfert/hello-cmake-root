@@ -1,5 +1,8 @@
 #Set CXX flags to compile with c++11 and error warnings quiet
-set(CMAKE_CXX_FLAGS "-O3 -fPIC -Wall -Wextra -std=c++11 -m64")
+set(CMAKE_CXX_FLAGS "-O3 -fPIC -Wall -Wextra -m64")
+
+set(CMAKE_CXX_STANDARD 98)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # You need to tell CMake where to find the ROOT installation. This can be done in a number of ways:
 if(EXISTS $ENV{ROOTSYS}/cmake/ROOTConfig.cmake)
